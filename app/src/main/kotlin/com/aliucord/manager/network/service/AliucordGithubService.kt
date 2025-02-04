@@ -22,7 +22,7 @@ class AliucordGithubService(
     suspend fun getContributors() = github.getContributors(ORG, MAIN_REPO)
 
     private companion object {
-        const val ORG = "Aliucord"
+        const val ORG = "Delphox"
         const val MAIN_REPO = "Aliucord"
         const val MANAGER_REPO = "Manager"
     }
