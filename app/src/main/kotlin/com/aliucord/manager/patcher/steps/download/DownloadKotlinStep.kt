@@ -22,7 +22,7 @@ class DownloadKotlinStep : DownloadStep(), IDexProvider, KoinComponent {
     override val targetFile = paths.cachedKotlinDex()
 
     private companion object {
-        const val ORG = "Aliucord"
+        const val ORG = "Delphox"
         const val MAIN_REPO = "Aliucord"
 
         const val URL = "https://raw.githubusercontent.com/$ORG/$MAIN_REPO/main/installer/android/app/src/main/assets/kotlin/classes.dex"
